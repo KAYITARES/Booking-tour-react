@@ -1,0 +1,67 @@
+[
+    {
+      "title": " Nyungwe Park",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 50,
+      "price":400,
+      "available": 20,
+      "images": ["https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?","https://images.pexels.com/photos/417059/pexels-photo-417059.jpeg?","https://images.pexels.com/photos/5534928/pexels-photo-5534928.jpeg?","https://images.pexels.com/photos/8598553/pexels-photo-8598553.jpeg?"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "user":{
+        "name":"John Smith",
+        "phone":"+250 788 788 788"
+      },
+      "tripDescription":"Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor."
+    },
+  
+    {
+      "title": " Muhazi Lac",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 50,
+      "available": 20,
+      "price":300,
+      "images": ["https://images.pexels.com/photos/2407070/pexels-photo-2407070.jpeg?","https://images.pexels.com/photos/301930/pexels-photo-301930.jpeg?","https://images.pexels.com/photos/1464815/pexels-photo-1464815.jpeg?","https://images.pexels.com/photos/158398/niagara-falls-waterfall-horseshoe-158398.jpeg?"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "user":{
+        "name":"John Smith",
+        "phone":"+250 788 788 788"
+      },
+      "tripDescription":"Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor."
+    },
+    {
+      "title": " Gako Forest",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 80,
+      "price":600,
+      "available": 30,
+      "images": ["https://images.pexels.com/photos/2108831/pexels-photo-2108831.jpeg?", "https://images.pexels.com/photos/3784369/pexels-photo-3784369.jpeg?"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "user":{
+        "name":"John Smith",
+        "phone":"+250 788 788 788"
+      },
+      "tripDescription":"Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor."
+    },
+    {
+      "title": " Akagera National Park",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 40,
+      "price":700,
+      "available": 20,
+      "images": ["https://images.pexels.com/photos/2108832/pexels-photo-2108832.jpeg?", "https://images.pexels.com/photos/2147993/pexels-photo-2147993.jpeg?"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "user":{
+        "name":"John Smith",
+        "phone":"+250 788 788 788"
+      },
+      "tripDescription":"Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor."
+    }
+  ]

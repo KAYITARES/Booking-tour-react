@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.home-container {
+  background: linear-gradient(
+    to right bottom,
+    rgba(53, 90, 87, 0.2),
+    rgba(128, 0, 128, 0.2)
+  ),url("https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?");
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  /* min-height: 100vh; */
+ 
+}
+.allTours h1, .allUsers h1{
+  font-size:48px;
+  text-align:center;
+  color:skyblue;
+}
+

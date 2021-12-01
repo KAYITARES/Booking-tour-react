@@ -1,0 +1,429 @@
+*{
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+ .header {
+  background: white;
+  box-shadow: 1px 3px 5px rgb(13, 13, 14);
+  display: flex;
+  position:fixed;
+  z-index: 999;
+  width: 100%;
+ 
+}
+
+nav{
+  display: flex;
+  padding-top: 10px;
+  width: 100%;
+  position:relative;
+}
+nav .logo {
+  height: 100px;
+  width: 25%;
+}
+
+nav .logo img {
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+  object-fit: cover;
+}
+
+
+nav .nav-link {
+  width: 56%;
+  background: rgba(128, 0, 128, 0.5);
+  border-end-start-radius: 100px;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  text-align:center;
+  box-shadow: -4px 0px 8px 1px #aaaaaa;
+  border-left:10px solid white;
+ 
+  
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+  overflow: hidden;
+  margin-right: 4%;
+}
+
+nav ul li {
+  float: right;
+}
+
+
+li a {
+  padding: 30px 16px;
+  text-align: center;
+  font-weight:bold;
+  text-shadow: 0px 1px black;
+  display: flex;
+  margin-right: 5px;
+  font-size: 18px;
+  color: rgba(128, 0, 128, 0.8);
+  font-family: "Lato", sans-serif;
+  color:white;
+  text-decoration:none;
+  margin-top:10px;
+}
+li a:hover {
+  color: rgba(128, 0, 128, 0.8);
+ border-bottom:3px solid whitesmoke;
+
+} 
+
+
+.home-container h1{
+  color:white;
+  font-size:48px;
+  letter-spacing:2px;
+  text-align: center;
+  text-shadow: 4px 4px 5px rgb(0, 0, 0);
+  animation-duration: 3s;
+  animation-name:leftAnimation;
+  text-transform: uppercase;
+  position:absolute;
+  font-family:'Lato',sans-serif;
+  top:35%;
+  font-weight:900;
+  left:50%;
+  transform: translate(-50%,-50%);
+ 
+
+}
+@keyframes leftAnimation {
+  0%{
+      opacity:0;
+      transform: translateX(-100px);
+  }
+  5%{
+      transform: translateY(20px);
+  }
+  100%{
+      opacity:1;
+      transform: translate(0);
+  }
+  
+}
+.footer{
+  background: rgb(83, 2, 83);
+  height:84vh;
+  width:100%;
+  padding:20px;
+  position:relative;
+ 
+ 
+ 
+  
+}
+
+.footer .footer-data{
+  /* margin-left:20px; */
+  display:flex;
+  color:white;
+ 
+
+
+}
+.footer-data h5,.footer-data .logo{
+  
+  width:100%;
+  margin-top:60px;
+  text-transform: uppercase;
+  font-size:24px;
+  margin-bottom:30px;
+  color:white;
+  font-weight:bold;
+  font-family:'Lato',sans-serif
+   
+}
+.footer .footer-data{
+  width:100%;
+  display:flex;
+}
+.footer-data .first-column{
+  width:100%;
+  
+}
+.first-column p{
+  margin-left:50px;
+  
+}
+.footer-data .second-column{
+  width:80%;
+}
+.footer-data .third-column{
+  width:80%;
+}
+.footer-data .fourth-column{
+  width:80%;
+}
+.footer-data p{
+  line-height:1.5em;
+  
+ 
+}
+.footer-icon{
+  width:80%;
+}
+.footer-icon a{
+  margin-left:10px;
+  /* background:white; */
+  color:white;
+  box-shadow:1px 1px 3px gray;
+  
+  
+}
+.footer a{
+  text-decoration:none;
+  color:#ffffff;
+}
+.footer-icon a:hover{
+  color:rgb(55, 8, 73);
+}
+.footer-data hr{
+  width:20%;
+}
+.footer .big-line{
+  margin-top:60px;
+  width:100%;
+  border-color:rgb(153, 149, 149) !important;
+ 
+}
+.sub-footer{
+  margin-top:20px;
+  display:flex;
+  color:gray;
+}
+.sub-footer p{
+  font-family: 'Lato',sans-serif;
+  width:90%;
+}
+.sub-footer p a{
+  font-size:18px;
+  color:skyblue;
+  font-weight:bold;
+  text-decoration: none;
+}
+.sub-footer p a:hover{
+  color:rgb(55, 8, 73);
+}
+
+.sub-footer .footer-icon a{
+  float:right;
+}
+
+
+
+.card{
+  width:50%;
+  height:150px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(53, 90, 87, 0.8),
+    rgba(128, 0, 128, 0.8)
+  );
+ 
+  position:absolute;
+  top:65%;
+  left:7%;
+  /* border-radius:8px; */
+  padding:20px;
+  border:1px solid rgb(22, 211, 224);
+  box-shadow:12px 14px 18px  black;
+  border-end-start-radius: 100px;
+  border-end-end-radius: 100px;
+  animation-duration: 3s;
+  animation-name:leftAnimation;
+  /* clip-path: ellipse(48% 40% at 50% 50%); */
+
+  
+}
+.card p{
+  color:white;
+  padding:20px;
+  position:absolute;
+  object-fit:cover;
+  /* top:30%; */
+  font-size:16px;
+  /* left:3%; */
+  text-align:center;
+
+}
+
+/* gallery css */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+  /* background:white; */
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 8px;
+}
+
+.column img {
+  margin-top: 12px;
+  vertical-align: middle;
+  width:100%;
+  height:22%;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.tour-section-container{
+  width:100%;
+  height:100vh;
+  background:white;   
+  position:relative;
+ 
+}
+.tour-section-container .line-section{
+  width:100%;
+  height:10%;
+  display:flex;
+  padding:10px;
+  
+  
+
+}
+.line-section .line-one{
+  background:rgb(83, 2, 83);
+  width:20%;
+  height:10%;
+  margin-left:25%;
+  margin-right:5px;
+  border-radius:5px;
+}
+.line-section .line-two{
+  background:rgb(83, 2, 83);
+  width:10%;
+  height:10%;
+  margin-right:5px;
+  border-radius:5px;
+}
+.line-section .line-three{
+  background:rgb(83, 2, 83);
+  width:20%;
+  height:10%;
+  border-radius:5px;
+ 
+}
+.tour-section-container .main-tour-section{
+  width:100%;
+  color:rgb(83, 2, 83);
+  display:flex;
+
+}
+
+.main-tour-section .left-section{
+  margin-left:63px;
+  width:40%;   
+  padding:30px;
+}
+
+.left-section h2, .tour-section-container h2{
+  color:rgb(83, 2, 83);
+  padding-bottom: 30px;
+  font-size:32px;
+  font-weight:bold;
+}
+.left-section label{
+font-size:18px;
+font-weight:bold;
+color:rgb(83, 2, 83);
+
+}
+.left-section select{
+width:70%;
+height:40px;
+/* border:2px solid black; */
+font-size:18px;
+
+background-color: white;
+border-radius:3px;
+box-shadow:3px 3px 5px grey;
+
+}
+
+.garelly-container{
+  display:inline-block;
+ 
+/* padding:0 20px;
+   */
+   /* margin-left:30px;  */
+  /* margin-bottom:20px; */ 
+  /* margin-right:20px; */
+}
+
+.gallery img{
+  margin-left:5px;
+  margin-bottom: 5px;
+}
+.card label{
+font-size:16px;
+width:100px;
+display:inline-block;
+}
+.left-section button{
+  width: 20%;
+  padding:15px;
+  font-size:18px;
+  position:absolute;
+  left:33%;
+  border-radius:10px;
+  box-shadow: 3px 3px 5px gray;
+
+}
+.left-section button a{
+  color:rgb(83, 2, 83);;
+  font-weight:bold;
+  text-decoration: none;
+}
+.left-section button:hover{
+  background:rgba(128, 0, 128, 0.5);
+
+} .left-section button:hover > a{
+ 
+  color:white;
+}
+.main-tour-section .right-section{
+  width:60%; 
+
+  
+}
+.right-section img{
+  width:80%;
+}
+

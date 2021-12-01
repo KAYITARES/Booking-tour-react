@@ -1,0 +1,367 @@
+*{
+    box-sizing: border-box;
+}
+.home-container h1{
+    top:48%;
+}
+/* .tour-place{
+    background:white;
+    height:100vh;
+    background:red;
+    width:100%;
+} */
+
+.about-card{
+    width:100%;
+    min-height:110vh; 
+    background: white;
+   
+    position:absolute;
+    top:75%;
+  
+    /* border-radius:8px; */
+    padding:20px;
+    /* border:1px solid rgb(22, 211, 224);
+    box-shadow:12px 14px 18px  black; */
+   
+    animation-duration: 3s;
+    animation-name:leftAnimation;
+  
+  }
+  .about-card > h2{
+      font-size:32px;
+      font-family:'Lato',sans-serif;
+      font-weight: bold;
+      text-align:center;
+      padding:20px;
+      margin-top: 60px;
+      
+  }
+  .about-card .row{
+      display:flex;
+     
+      width:100%;
+      /* height:70vh; */
+      margin-top:30px;
+      margin-bottom:0;
+  
+  }
+.row .row-one{
+    background: #ffffff;
+   
+    width:45%;
+    /* height: 40%; */
+    margin-left:5%;
+    border-radius: 0px;
+    border-left: 5px solid rgb(55, 8, 73);;
+    box-shadow: 2px 2px 2px 3px grey;
+    padding: 5px;
+    /* margin-left:65px; */
+}
+.row .row-two{
+    background: #ffffff;
+    width:45%;
+    /* height: 40%; */
+    /* margin-left:20px; */
+    margin-left:2%;
+    border-radius: 0px;
+    border-left: 5px solid rgb(55, 8, 73);;
+    box-shadow: 2px 2px 2px 3px grey;
+    padding: 5px;
+    
+   
+}
+.title{
+    padding:30px;
+    color: rgb(55, 8, 73);
+    display:flex;
+    padding-bottom: 0;
+
+}
+.title h2{
+    font-size:1.75rem;
+    margin-bottom:0;
+    padding-bottom:0;
+    /* line-height: -200px; */
+   
+}
+.row p{
+    font-size:16px;
+    padding:20px;
+    padding-top:0;
+    line-height:25px;
+    margin-left:13%;
+    margin-top:0;
+}
+.about-card .p-about{
+    text-align:center;
+    font-size:18px;
+    padding:40px;
+  
+}
+/* .row-one:hover, .row-one:hover >h2{
+    background:rgba(128, 0, 128, 0.5);
+    color:white;
+} */
+/* .row-one:hover .icon,  */
+
+.row-one:hover, .row-two:hover{
+    background:rgba(128, 0, 128, 0.5);
+    color:white;
+}
+.row-one:hover h2,.row-two:hover h2,.row-two:hover .icon, .row-one:hover .icon{
+    color:white;
+}
+
+  
+  .tour-card{
+    width:80%;
+    /* height:50vh; */
+    /* border:1px solid black; */
+    display: flex;
+    margin:auto;
+    font-family: sans-serif;
+    
+  /* margin-top:100px; */
+    box-shadow:3px 3px 5px gray;
+    margin-bottom:40px;
+    
+  }
+  .main-tour-container{
+      margin-top:100px;
+      /* height:200vh; */
+  }
+  .tour-img{
+      width:40%;
+  }
+  .tour-img img{
+      width:100%;
+      height:100%;
+      padding:4px;
+      
+  }
+
+.tour-detail{
+    width:60%;
+    padding:20px;
+   
+    
+}
+
+.tour-detail a:link,.tour-detail a:visited{
+    float:right;
+    margin-top:30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:18px;
+    /* padding:20px; */
+}
+.tour-detail a:hover,.tour-detail a:active{
+    color: rgba(128, 0, 128, 0.993);
+}
+.sub-tour-details{
+    display:flex;
+    width:100%;
+
+}
+.left{
+    width:50%;
+}
+.right{
+    width:50%;
+    margin-left:30px;
+}
+.single-detail h3{
+    text-align:center;
+    font-size:24px;
+    margin-bottom:20px;
+    letter-spacing:1px;
+    text-shadow:1px 1px 3px purple;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.single-description p{
+    font-size:16px;
+
+}
+.all-section{
+    display:flex;
+    width:100%;
+    
+}
+.all-section .right-section{
+    margin-left:90px;
+}
+.tour-detail h3{
+    text-align: right;
+    font-size:24px;
+    margin-bottom:20px;
+    letter-spacing:1px;
+    text-shadow:1px 1px 3px purple;
+    text-transform: uppercase;
+    margin-right:30px;
+    font-weight:bold;
+    
+   
+    
+}
+.single-description{
+    margin-top:30px;
+}
+.tour-detail p strong{
+    letter-spacing: 2px;
+    line-height: 15px;
+}
+.description-tour{
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+/* .tour-detail p:first-child{
+   margin-top:20px;
+   
+} */
+
+
+
+/* .contact{
+    position: relative;
+    min-height:100vh;
+  
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    
+    
+} */
+
+
+/* .container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top:30px; 
+} */
+/* .container .contactInfo{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+} */
+/* .container .contactInfo .box{
+    position: relative;
+    padding:20px 0;
+    display:flex;
+   
+
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height:60px;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    font-size: 22px;
+} */
+
+/* .container .contactInfo .box .text{
+    display:flex;
+    margin-left:20px;
+    font-size:16px;
+    color:#fff;
+    flex-direction:column;
+    font-weight:300;
+
+} */
+/* .container .contactInfo .box .text h3{
+    font-weight: 500;
+    color:#00bcd4;
+} */
+.contactForm{
+    width: 40%;
+    padding:20px;
+    background:#fff;
+    position:absolute;
+    right:10%;
+    /* height:100%; */
+}
+.contactForm h2{
+    font-size:30px;
+    color:rgb(55, 8, 73);
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width:100%;
+    margin-top:10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+    width:100%; 
+    padding:5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    border:none;
+    border-bottom:2px solid rgb(55, 8, 73);
+    outline:none;
+    resize:none
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left:0;
+    padding:5px 0;
+    font-size:16p;
+    margin:10px 0;
+    pointer-events:none;
+    transition:0.5s;
+    color:rgb(55, 8, 73);
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color:rgba(128, 0, 128, 0.5);
+    font-size:12px;
+    transform:translateY(-20px)
+}
+.contactForm .inputBox input[type='submit']{
+    width:100px;
+    background:rgba(128, 0, 128, 0.5);
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    font-size:18px;
+}
+@media (max-width:991px){
+    .contact{
+        padding:50px;
+    }
+    .container{
+        flex-direction:column;
+    }
+    .container .contactInfo{
+        margin-bottom:40px;
+    }
+    .container .contactInfo,
+    .contactForm{
+        width:100%;
+    }
+}
+.col-one{
+    width:40%;
+    height:50vh;
+    background:white;
+    box-shadow: 2px 2px 2px 3px grey;
+    position:absolute;
+    left:8%;
+    margin-top:30px;
+
+}
+.col-one iframe{
+    width:100%;
+    height:100%;
+    padding:10px;
+}
