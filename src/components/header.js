@@ -9,7 +9,9 @@ const Header=()=>{
     
 
     const onFinish=(values)=>{
-        console.log(values )
+        console.log(values);
+        localStorage.setItem("userLogedIn",true);
+        navigate("/dash/newtour")
     }
     const navigate=useNavigate();
     return(
@@ -32,8 +34,7 @@ const Header=()=>{
 
                 </Form.Item>
                 <Button htmlType="submit" onClick={()=>{
-                    localStorage.setItem("userLogedIn",true);
-                    navigate("/dash/newtour")
+                   
 
                 }}>
                     

@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route,useLocation } from "react-router-dom";
 import Home from "../views/home";
 import About from "../views/aboutUs";
 import Gallery from "../views/gallery";
@@ -14,6 +14,8 @@ import AllTour from "../views/dashboard/allTours";
 
 const isUserLogedIn=localStorage.getItem("userLogedIn")
 const Index = () => {
+
+  const currentUrl=useLocation().pathname;
   return (
     <>
       <Routes>
@@ -26,7 +28,7 @@ const Index = () => {
         <Route exact path="/tour" element={<Tour />}></Route>
       </Routes>
       {
-        isUserLogedIn ?(
+        isUserLogedIn && currentUrl.includes("/dash") ?(
           <DashLayout>
           <Routes>
       <Route exact path="/dash/newtour" element={<NewTourView />}></Route>
