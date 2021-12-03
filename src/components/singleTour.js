@@ -1,4 +1,5 @@
 import React from "react";
+import "./header.css";
 
 const SingleTour=({tour})=>{
     return(
@@ -34,9 +35,9 @@ const SingleTour=({tour})=>{
         </div><br/>
         <div className="single-detail">
                     <h3>More</h3>
-                    <div className="tour-img">
+                    <div className="tour-img" style={{display:"flex"}}>
                     {
-                        tour.images.map((image)=>(<img src={image} width="500"/>))
+                        tour.images.map((image)=>(<img src={image}  width="500"/>))
 
                         
                     }
@@ -44,6 +45,7 @@ const SingleTour=({tour})=>{
                     
                     </div>
                     <p style={{textAlign:"right"}} style={{marginRight:"3px"}}>posted by:<strong>{tour.user.name}</strong></p>
+                    <a style={{padding:"30px"}} width="100%" style={{fontSize:"24px"}} style={{color:"purple"}}>Book Now</a>
 
               
                 

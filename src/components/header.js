@@ -46,7 +46,7 @@ const Header=()=>{
             </Modal>
         <div className="header">
             <nav>
-                <div className="logo">
+                <div className="logo-home">
                     <img src={logo}/>
 
                 </div>
@@ -54,7 +54,7 @@ const Header=()=>{
 
             
                 <ul>
-                <li><a href="/tour">Tour</a></li>
+                <li><a href="/tour" className="tour">Tour</a></li>
                     <li><a href="#" onClick={()=>setVisible(true)}>SignIn</a></li>
                     <li><a href="/signUp">SignUp</a></li>
                     <li><a href="/contact">Contact-US</a></li> 

@@ -15,11 +15,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer=()=>{
     return(
-        <div className="footer">
+        <div className="footer-container">
           <div className="footer-data">
             <div className="first-column">
-            <div className="logo">
-                   <a href="\home"> <img src={logo} style={{width:"200px"}}/></a>
+            <div className="logo-home">
+            
+                   <a href="\home"><img src={logo} /> </a>
 
                 </div>
             <p>PO BX 6419, KG 278 St, Kimisange Kigali</p>

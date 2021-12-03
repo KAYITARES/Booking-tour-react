@@ -9,7 +9,10 @@ const Home=()=>{
                 <div className="main-home" style={{height:"100vh"}}>
                 <h1>Rwanda Booking Tours</h1>
                 <div className="card">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat iusto nihil hic eveniet provident eligendi dolore vero cupiditate asperiores deserunt, debitis assumenda totam ab modi, molestias cumque tempora voluptatibus.</p>
+                
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam fugiat iusto nihil hic eveniet provident eligendi dolore vero cupiditate asperiores deserunt, debitis assumenda totam ab modi, molestias cumque tempora voluptatibus.
+                        <a href="/tour">Book Tour</a>
+                    </p>
                     
 
                 </div>

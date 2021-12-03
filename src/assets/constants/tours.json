@@ -5,7 +5,7 @@
       "seats": 50,
       "price":400,
       "available": 20,
-      "images": ["https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?","https://images.pexels.com/photos/417059/pexels-photo-417059.jpeg?","https://images.pexels.com/photos/5534928/pexels-photo-5534928.jpeg?","https://images.pexels.com/photos/8598553/pexels-photo-8598553.jpeg?"],
+      "images": ["https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?","https://images.pexels.com/photos/417059/pexels-photo-417059.jpeg?"],
       "dateScheduled": "10 August 2010",
       "dueDate": "15 August 2010",
       "phone": "+250 788 788 788",
